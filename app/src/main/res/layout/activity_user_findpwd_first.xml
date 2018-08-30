@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+    <!--找回登录/交易密码第一步-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_62.5"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_22"
+                android:background="@color/color_FFFFFF"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+                <!--手机号-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginRight="@dimen/dimen_15"
+                        android:text="手机号"
+                        style="@style/text_bold_16"/>
+                    <!--输入开户手机号-->
+                    <EditText
+                        android:id="@+id/phone"
+                        android:hint="请输入开户手机号码"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        style="@style/edit_user_15"
+                        />
+
+                    <!--获取验证码-->
+                    <com.zhsoft.fretting.ui.widget.CountdownButton
+                        android:id="@+id/get_verify_code"
+                        style="@style/AppTheme.Button_send_code"/>
+
+                </LinearLayout>
+
+                <View style="@style/divider_half_ba"/>
+
+                <!--验证码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginRight="@dimen/dimen_15"
+                        android:text="验证码"
+                        style="@style/text_bold_16"/>
+                    <!--输入验证码-->
+                    <EditText
+                        android:id="@+id/msg_code"
+                        android:background="@null"
+                        android:hint="请输入验证码"
+                        android:inputType="text"
+                        android:maxLength="11"
+                        style="@style/edit_user_15"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--下一步按钮-->
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/common_blue_button_rect"
+                android:text="下一步"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

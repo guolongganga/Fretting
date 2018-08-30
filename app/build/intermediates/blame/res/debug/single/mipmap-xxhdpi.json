@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\arrow_down_o.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xxhdpi\\arrow_down_o.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_logo.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\arrow_top_o.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xxhdpi\\arrow_top_o.png"
+    }
+]

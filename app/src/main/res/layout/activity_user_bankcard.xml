@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--我的银行卡 信息-->
+    <include layout="@layout/layout_head"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_64"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+
+        <ImageView
+            android:id="@+id/image_banck"
+            android:layout_width="@dimen/dimen_35"
+            android:layout_height="@dimen/dimen_35"/>
+
+        <TextView
+            android:id="@+id/banck_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text=""
+            android:textColor="@color/color_text_333"
+            android:textSize="@dimen/text_size_18"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_divider_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <include layout="@layout/layout_divider_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_64"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:text="@string/user_bank_card_account"
+            style="@style/text_bold_16"/>
+
+        <TextView
+            android:id="@+id/trade_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/text_size_15"/>
+    </RelativeLayout>
+
+    <include layout="@layout/layout_divider_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_30"
+        android:layout_marginRight="@dimen/dimen_30"
+        android:layout_marginTop="30dp"
+        android:text="@string/user_bank_card_hint"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/text_size_12"
+        />
+
+    <Button
+        android:id="@+id/btn_change"
+        style="@style/common_blue_button_rect"
+        android:text="@string/user_bank_card_change"/>
+</LinearLayout>

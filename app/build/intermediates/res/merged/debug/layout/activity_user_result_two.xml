@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="66dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--购买信息-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/dimen_30"
+                android:layout_marginRight="@dimen/dimen_30"
+                android:layout_marginTop="@dimen/dimen_20"
+                android:background="@color/color_DC6F5A">
+                <!--股票名称-->
+                <TextView
+                    android:id="@+id/tv_fund_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="xxxxxxx股票"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18"/>
+                <!--购买金额-->
+                <TextView
+                    android:id="@+id/tv_fund_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_fund_name"
+                    android:text="10.00元"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18"/>
+                <!--银行信息-->
+                <TextView
+                    android:id="@+id/tv_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="招商银行 （2557）支付成功"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_14"/>
+            </RelativeLayout>
+
+            <!--撤单成功 支付失败 确认失败-->
+            <RelativeLayout
+                android:id="@+id/rl_fail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_30"
+                android:layout_marginLeft="@dimen/dimen_60"
+                android:layout_marginRight="@dimen/dimen_30"
+                android:layout_marginTop="@dimen/dimen_30"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/iv_transaction"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/selector_true"/>
+
+                <!--撤单成功 状态-->
+                <TextView
+                    android:id="@+id/tv_transaction_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/iv_transaction"
+                    android:text="撤单成功"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/text_size_14"/>
+
+                <!--原因-->
+                <TextView
+                    android:id="@+id/tv_transaction_cause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_transaction_status"
+                    android:layout_below="@id/tv_transaction_status"
+                    android:layout_marginBottom="@dimen/dimen_8"
+                    android:text="资金将于X月x日x点前返回到银行卡"
+                    android:textColor="@color/color_696969"
+                    android:textSize="@dimen/text_size_14"/>
+            </RelativeLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_20"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="申请编号："
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/text_size_14"/>
+
+                <TextView
+                    android:id="@+id/tv_allot_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/text_size_14"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

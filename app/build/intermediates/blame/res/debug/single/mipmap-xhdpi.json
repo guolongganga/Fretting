@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_error.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\ic_error.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\item_one_welcome.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\item_one_welcome.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\icon_user_eyes_checked.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\icon_user_eyes_checked.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\item_three_welcome.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\item_three_welcome.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\selector_true.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\selector_true.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\register_choose.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\register_choose.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\selector_false.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\selector_false.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\start_logo.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\start_logo.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\start_jump.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\start_jump.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\start_img.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\start_img.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\item_two_welcome.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\item_two_welcome.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_logo.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\icon_user_eyes_normal.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\icon_user_eyes_normal.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\register_unchoose.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\mipmap-xhdpi\\register_unchoose.png"
+    }
+]

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/dimen_83">
+
+    <View
+        android:id="@+id/view_line"
+        style="@style/divider_1dp_f8"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_82"
+        android:layout_marginTop="@dimen/dimen_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+        <!--人气产品 列表-->
+
+        <!--利率-->
+        <TextView
+            android:id="@+id/tv_value"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:text="32.82%"
+            android:textColor="@color/color_main"
+            android:textSize="@dimen/text_size_26"/>
+        <!--利率描述 近一年的收益率-->
+        <TextView
+            android:id="@+id/tv_describe"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_value"
+            android:text="近一年的收益率"
+            android:textColor="@color/color_A4A4A4"
+            android:textSize="@dimen/text_size_12"/>
+
+        <!--基金名称-->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_value"
+            android:layout_marginBottom="@dimen/dimen_3"
+            android:layout_marginLeft="@dimen/dimen_125"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="国泰江源优势精选灵活配置混合"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/text_size_18"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_17"
+            android:layout_alignLeft="@id/tv_title"
+            android:layout_below="@id/tv_title"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!--特色一-->
+            <TextView
+                android:id="@+id/tv_location_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="把握拐点"
+                android:textColor="@color/color_A4A4A4"
+                android:textSize="@dimen/text_size_12"/>
+            <!--特色分隔线-->
+            <View
+                android:layout_width="@dimen/dimen_1"
+                android:layout_height="@dimen/dimen_12"
+                android:layout_marginLeft="@dimen/dimen_5"
+                android:layout_marginTop="@dimen/dimen_1"
+                android:layout_marginRight="@dimen/dimen_5"
+                android:background="@color/color_A4A4A4"/>
+
+            <!--特色二-->
+            <TextView
+                android:id="@+id/tv_location_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深挖潜力股"
+                android:textColor="@color/color_A4A4A4"
+                android:textSize="@dimen/text_size_12"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

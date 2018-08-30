@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.com.buyforyou.fund">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,icon">
+
+        <!--主界面-->
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+        <!--启动页-->
+        <activity
+            android:name=".ui.activity.boot.StartActivity"
+            android:theme="@style/NoTitle_FullScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--引导页-->
+        <activity android:name=".ui.activity.boot.WelcomeActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--登录页-->
+        <activity android:name=".ui.activity.user.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--注册第一步 手机号-->
+        <activity android:name=".ui.activity.user.RegisterFirstActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--注册第二步 实名绑卡-->
+        <activity android:name=".ui.activity.user.RegisterSecondActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--注册第三步 设置交易密码页-->
+        <!--注册成功-->
+        <activity android:name=".ui.activity.user.RegisterSuccessActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--设置-->
+        <activity android:name=".ui.activity.user.SettingActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--个人信息-->
+        <activity
+            android:name=".ui.activity.user.PersonInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <!--居民涉税信息-->
+        <activity
+            android:name=".ui.activity.user.ResidentsTaxInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <!--变更手机号 信息页-->
+        <activity android:name=".ui.activity.user.PhoneActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--变更手机号 更改页-->
+        <activity android:name=".ui.activity.user.PhoneChangeActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--变更密码-->
+        <activity android:name=".ui.activity.user.ChangePwdActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--变更登录密码-->
+        <activity android:name=".ui.activity.user.ChangeLoginPwdActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--变更交易密码-->
+        <activity android:name=".ui.activity.user.ChangeTradePwdActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--找回 登录 密码第一步-->
+        <activity android:name=".ui.activity.user.FindPwdLoginFirstActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--找回 登录 密码第二步-->
+        <activity android:name=".ui.activity.user.FindPwdLoginSecondActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--找回 交易 密码第一步-->
+        <activity android:name=".ui.activity.user.FindPwdTradeFirstActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--找回 交易 密码第二步-->
+        <activity android:name=".ui.activity.user.FindPwdTradeSecondActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--我的银行卡-->
+        <activity android:name=".ui.activity.user.BankCardActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--更换绑定银行卡-->
+        <activity android:name=".ui.activity.user.BankCardChangeActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--切换账户-->
+        <activity android:name=".ui.activity.user.SwitchAccountActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--银行列表-->
+        <activity android:name=".ui.activity.user.BankListActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--人气产品 业绩排行-->
+        <activity android:name=".ui.activity.index.PopularityActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--优选定投 定投排行-->
+        <activity android:name=".ui.activity.index.TimingActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--基金购买页-->
+        <activity android:name=".ui.activity.fund.BuyActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--基金购买成功页-->
+        <activity android:name=".ui.activity.fund.BuySuccessActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--基金定投页-->
+        <activity android:name=".ui.activity.fund.InvestActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--基金定投成功页-->
+        <activity android:name=".ui.activity.fund.InvestSuccessActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--搜索页-->
+        <activity android:name=".ui.activity.boot.SearchActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--搜索定投页-->
+        <activity android:name=".ui.activity.boot.SearchTimingActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--基金详情页-->
+        <activity android:name=".ui.activity.boot.FundDetailWebActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--我的定投-->
+        <activity android:name=".ui.activity.user.MyInvestActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--定投计划-->
+        <activity android:name=".ui.activity.user.InvestPlanActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--定投详情-->
+        <activity android:name=".ui.activity.user.InvestDeatilActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--交易详情1-->
+        <activity android:name=".ui.activity.user.ResultDetailOneActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--交易详情2-->
+        <activity android:name=".ui.activity.user.ResultDetailTwoActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--分红方式变更-->
+        <activity android:name=".ui.activity.user.BonusChangeActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--分红方式变更成功-->
+        <activity android:name=".ui.activity.user.BonusChangeSuccessActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--自选基金-->
+        <activity android:name=".ui.activity.user.SelfChooseActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--交易查询-->
+        <activity android:name=".ui.activity.user.TransactionQueryActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--单只基金交易查询-->
+        <activity android:name=".ui.activity.user.TransactionQuerySingleActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--分红方式-->
+        <activity android:name=".ui.activity.user.BonusActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--撤单-->
+        <activity android:name=".ui.activity.user.CancleOrderActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--卖出-->
+        <activity android:name=".ui.activity.fund.SellActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--卖出成功-->
+        <activity android:name=".ui.activity.fund.SellSuccessActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <!--通用WebView-->
+        <activity android:name=".ui.activity.boot.WebPublicActivity"
+            android:screenOrientation="portrait"></activity>
+        <!--风险测评webview-->
+        <activity android:name=".ui.activity.boot.WebRiskActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name=".ui.activity.UpdateAppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AtivityNoAnimation" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.com.buyforyou.fund.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+    </application>
+
+    <!--权限设置-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!--<meta-data-->
+    <!--android:name="UMENG_APPKEY"-->
+    <!--android:value="5ad05d348f4a9d3227000185" />-->
+    <!--<meta-data-->
+    <!--android:name="UMENG_CHANNEL"-->
+    <!--android:value="Official Website" />-->
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--内容页-->
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/main_bottom_rg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+    <!--分割线-->
+    <!--底部Tab-->
+
+    <View
+        android:layout_width="368dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/read_button_bg"
+        app:layout_constraintBottom_toTopOf="@+id/main_bottom_rg"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/main_bottom_rg"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/main_bottom_index"
+            style="@style/MainRadioButton"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_index"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_fund"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/tab_fund"
+            android:text="基金" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_mine"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/tab_user"
+            android:text="我的" />
+
+
+    </RadioGroup>
+
+
+</android.support.constraint.ConstraintLayout>

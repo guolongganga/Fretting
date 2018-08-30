@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+    <!--登录界面-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_62.5"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_22"
+                android:background="@color/color_FFFFFF"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <!--用户-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/dimen_83"
+                        android:text="@string/user_login_username"
+                        style="@style/text_bold_16"/>
+                    <!--用户名输入-->
+                    <EditText
+                        android:id="@+id/username"
+                        android:hint="@string/user_login_username_hint"
+                        android:inputType="text"
+                        android:maxLength="20"
+                        style="@style/edit_user_15"/>
+
+                </LinearLayout>
+
+                <View style="@style/divider_half_ba"/>
+
+                <!--登录密码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/dimen_83"
+                        android:text="@string/user_common_password"
+                        style="@style/text_bold_16"/>
+
+                    <!--眼睛的点击-->
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:hintEnabled="false"
+                        app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                        app:passwordToggleEnabled="true">
+                        <!--登录密码输入-->
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:hint="@string/user_common_password_hint"
+                            android:inputType="textPassword"
+                            android:maxLength="16"
+                            style="@style/edit_user_15"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                >
+                <!--10秒开户-->
+                <TextView
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_common_ten_register"
+                    android:layout_marginLeft="@dimen/dimen_30"
+                    android:textColor="@color/color_407FE7"
+                    android:textSize="@dimen/text_size_12"/>
+                <!--忘记登录密码-->
+                <TextView
+                    android:id="@+id/find_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dimen_22"
+                    android:text="@string/user_login_forget_password"
+                    android:textColor="@color/color_407FE7"
+                    android:textSize="@dimen/text_size_12"/>
+
+            </RelativeLayout>
+
+            <!--登录按钮-->
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/common_blue_button_rect"
+                android:text="@string/user_common_login"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

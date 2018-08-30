@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_head" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_62.5"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--提示-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_30"
+                android:layout_marginTop="15dp"
+                android:text="@string/user_register_first_tv_hint_phone"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12" />
+            <!--手机号-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_66"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/text_bold_16"
+                    android:layout_width="@dimen/dimen_83"
+                    android:text="@string/user_common_phone" />
+                <!--请输入手机号-->
+                <EditText
+                    android:id="@+id/phone_number"
+                    style="@style/edit_user_15"
+                    android:hint="@string/user_common_phone_hint"
+                    android:inputType="number"
+                    android:maxLength="11" />
+
+            </LinearLayout>
+            <!--提示-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_30"
+                android:layout_marginTop="10dp"
+                android:text="@string/user_common_tv_hint_password"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12" />
+            <!--登录密码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_66"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    style="@style/text_bold_16"
+                    android:layout_width="@dimen/dimen_83"
+                    android:text="@string/user_common_password" />
+
+                <!--<EditText-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@null"-->
+                <!--android:hint="请输入登录密码"-->
+                <!--android:inputType="number"-->
+                <!--android:maxLength="11"-->
+                <!--android:singleLine="true"-->
+                <!--android:textColorHint="@color/color_696969"-->
+                <!--android:textSize="@dimen/text_size_14"-->
+                <!--/>-->
+                <!--眼睛的点击-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:hintEnabled="false"
+                    app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                    app:passwordToggleEnabled="true">
+                    <!--设置密码-->
+                    <EditText
+                        android:id="@+id/password"
+                        style="@style/edit_user_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:hint="@string/user_common_password_hint"
+                        android:inputType="textPassword"
+                        android:maxLength="16" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <!--确认密码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_66"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/text_bold_16"
+                    android:layout_width="@dimen/dimen_83"
+                    android:text="@string/user_common_password_again" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:hintEnabled="false"
+                    app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                    app:passwordToggleEnabled="true">
+                    <!--设置密码-->
+                    <EditText
+                        android:id="@+id/password_again"
+                        style="@style/edit_user_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:hint="@string/user_common_password_again_hint"
+                        android:inputType="textPassword"
+                        android:maxLength="16" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <!--验证码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_66"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/text_bold_16"
+                    android:layout_width="@dimen/dimen_83"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_common_message_code" />
+                <!--请输入验证码-->
+                <EditText
+                    android:id="@+id/msg_code"
+                    style="@style/edit_user_15"
+                    android:hint="@string/user_common_message_code_hint"
+                    android:inputType="text"
+                    android:maxLength="11" />
+                <!--获取验证码-->
+                <com.zhsoft.fretting.ui.widget.CountdownButton
+                    android:id="@+id/get_verify_code"
+                    style="@style/AppTheme.Button_send_code" />
+
+            </LinearLayout>
+
+
+            <!--邀请码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_66"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/text_bold_16"
+                    android:layout_width="@dimen/dimen_83"
+                    android:text="邀请码" />
+                <!--请输入邀请码-->
+                <EditText
+                    android:id="@+id/invite_code"
+                    style="@style/edit_user_15"
+                    android:hint="请输入邀请码"
+                    android:maxLength="11" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_margin_size"
+                android:layout_marginRight="@dimen/dimen_20"
+                android:layout_marginTop="@dimen/dimen_13"
+                android:gravity="center_vertical">
+                <!--选择已有账户登录-->
+                <!--<TextView-->
+                <!--android:id="@+id/to_login"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:autoLink="all"-->
+                <!--android:text="@string/user_register_first_choose_account"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textSize="@dimen/text_size_14"/>-->
+                <!--无法收到验证码?-->
+                <TextView
+                    android:id="@+id/message_fail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:autoLink="all"
+                    android:text="@string/user_register_first_no_message_code"
+                    android:textColor="@color/color_407FE7"
+                    android:textSize="@dimen/text_size_14" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/common_blue_button_rect"
+                android:text="@string/user_common_next" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ui.fragment.fund.FundFragment">
+
+    <!--基金搜索-->
+    <RelativeLayout
+        android:id="@+id/rl_name_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_62.5"
+        android:background="@color/color_main"
+        android:gravity="center"
+        android:paddingTop="@dimen/dimen_22">
+        <!--白色透明的圆角矩形-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_30"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:layout_marginRight="@dimen/dimen_15"
+            android:background="@drawable/shape_index_name_search">
+            <!-- 图标 和 搜索基金名称/代码-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/icon_common_search_white"
+                android:text="   搜索基金名称/代码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <!--滑动标签栏-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40"
+        android:layout_below="@+id/rl_title"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/color_main"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/color_main"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearanceInverse"
+        app:tabTextColor="@color/color_2A2A2A"/>
+
+    <!--分割线-->
+    <View style="@style/divider_half_e7"/>
+
+    <!--页卡-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--网络请求等待-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@mipmap/dialog_http_loading_icon"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fromDegrees="0"
+    android:toDegrees="360" /><!-- From: file:/Users/lihaotian/AndroidStudioProjects/CommonDialog/app/src/main/res/drawable/dialog_http_loading_style.xml -->

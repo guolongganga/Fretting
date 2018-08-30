@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/lihaotian/AndroidStudioProjects/CommonDialog/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="size_16">16sp</dimen>
+    <!-- From: file:/Users/lihaotian/AndroidStudioProjects/CommonDialog/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name_dialog">CommonDialog</string>
+    <string name="dialog_http_loading_message_default">加载中...</string>
+    <string name="dialog_http_loading_message_upload">正在上传...</string>
+    <string name="dialog_http_loading_message_working">处理中...</string>
+    <!-- From: file:/Users/lihaotian/AndroidStudioProjects/CommonDialog/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Dialog_Style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="dialog_http_loading_style">
+        <item name="android:indeterminateDrawable">@drawable/dialog_http_loading_style</item>
+        <item name="android:minWidth">@dimen/dimen_40</item>
+        <item name="android:maxWidth">@dimen/dimen_40</item>
+        <item name="android:minHeight">@dimen/dimen_40</item>
+        <item name="android:maxHeight">@dimen/dimen_40</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="da37436262ca633a819d62dc73a7358f2b122cbe">
+        <dex dex="E:\weidongli\Fretting\app\build\intermediates\pre-dexed\debug\classes_7eda41d09cab8992db42ac48e6ce2ab158558032.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_arrow_right.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_arrow_right.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_fund_normal.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\tab_fund_normal.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_search_white.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_search_white.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_start.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\img_start.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_index_normal.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\tab_index_normal.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_fanhui.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_fanhui.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_tick.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_tick.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_welcome_one.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\img_welcome_one.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_fund_day_raise.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_fund_day_raise.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_service_unselect.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_service_unselect.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_fund_focus.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\tab_fund_focus.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_my_focus.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\tab_my_focus.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_arrow.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_arrow.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_close.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_close.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_user_jiaoyi.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_user_jiaoyi.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_no_result.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_no_result.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_index_arrow.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_index_arrow.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_self_di.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_self_di.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_cancle.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_cancle.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_progress_choose.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_progress_choose.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_user_dingtou.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_user_dingtou.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_self_gao.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_self_gao.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_common_search_grey.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_common_search_grey.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_search_delete.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_search_delete.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_user_zixuan.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_user_zixuan.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_my_normal.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\tab_my_normal.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_welcome_two.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\img_welcome_two.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_service_select.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_service_select.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_user_fenhong.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_user_fenhong.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_index_focus.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\tab_index_focus.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_progress_unchoose.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_progress_unchoose.png"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_user_chedan.png",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\drawable-xhdpi\\icon_user_chedan.png"
+    }
+]

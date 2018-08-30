@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--定投排行/人气产品 公用页面-->
+    <include layout="@layout/layout_head"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40"
+        android:layout_below="@+id/rl_title"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/color_main"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/color_main"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearanceInverse"
+        app:tabTextColor="@color/color_2A2A2A"/>
+
+    <!--分割线-->
+    <View style="@style/divider_half_e7"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+</LinearLayout>

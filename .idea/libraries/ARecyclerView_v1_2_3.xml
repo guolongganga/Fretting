@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ARecyclerView-v1.2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/6a770add190dca5fb977f2cd9a128797b08326ae/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/6a770add190dca5fb977f2cd9a128797b08326ae/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

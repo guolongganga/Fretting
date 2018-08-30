@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_120"
+        android:src="@drawable/icon_common_no_result"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_230"
+        android:text="没有找到相关内容，试试别的吧!"
+        android:textSize="@dimen/text_size_14"
+        android:textColor="@color/color_9F9F9F"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_content"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:background="@color/white">
+
+    <!--<View-->
+        <!--android:id="@+id/view_line"-->
+        <!--style="@style/divider_half_e7"/>-->
+
+    <!--基金名称-->
+    <TextView
+        android:id="@+id/tv_fund_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="国泰互联网+股票"
+        android:textColor="@color/color_383F50"
+        android:textSize="@dimen/text_size_15"/>
+    <!--基金编号-->
+    <TextView
+        android:id="@+id/tv_fund_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="001542"
+        android:textColor="@color/color_97A1B7"
+        android:textSize="@dimen/text_size_12"
+        />
+    <!--利率-->
+    <TextView
+        android:id="@+id/tv_fund_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:text="+5.36%"
+        android:textColor="@color/color_main"
+        android:textSize="@dimen/text_size_18"
+        />
+    <!--近一年-->
+    <TextView
+        android:id="@+id/tv_fund_per_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:text="近一年"
+        android:textColor="@color/color_97A1B7"
+        android:textSize="@dimen/text_size_10"
+        />
+
+</RelativeLayout>

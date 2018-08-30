@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--基金名称-->
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/color_383F50"
+            android:textSize="@dimen/text_size_15"/>
+        <!--基金编号-->
+        <TextView
+            android:id="@+id/tv_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:text=""
+            android:textColor="@color/color_97A1B7"
+            android:textSize="@dimen/text_size_12"/>
+    </LinearLayout>
+    <!--净值-->
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/color_383F50"
+        android:textSize="@dimen/text_size_18"/>
+    <!--涨幅率-->
+    <TextView
+        android:id="@+id/tv_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textColor="@color/color_main"
+        android:textSize="@dimen/text_size_18"/>
+
+</RelativeLayout>

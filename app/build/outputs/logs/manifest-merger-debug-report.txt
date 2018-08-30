@@ -1,0 +1,476 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:2:1-212:12
+	package
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:6:5-195:19
+MERGED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:13:5-22:19
+MERGED from [com.github.limedroid:ARecyclerView:v1.2.3] C:\Users\liangzheng123456\.android\build-cache\6a770add190dca5fb977f2cd9a128797b08326ae\output\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.limedroid:XStateController:v1.1.1] C:\Users\liangzheng123456\.android\build-cache\f6e8266323b4d2b35d7e6b3653c7f5302397b4c7\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.wang.avi:library:1.0.2] C:\Users\liangzheng123456\.android\build-cache\c5117637f8dc73c691c5742743d43c59b795710f\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liangzheng123456\.android\build-cache\2a14be516e5426a5914915d17df51386f24ee6ef\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c778bf5299d034556eb042aa7486398beada7421\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\9e46b60e292bd81bc3245a6d28c809f46cf04510\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\04bcf9b79740e313fd7480f1357d2603c54cf372\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\0f499ca157af88e7691f05b07622c4c0896a2097\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\854caf90c71ff0b86f01365108a980382a2a981b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\f6b43e05a937c105bbb1688f090c23dfc73f7da7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c532d486ec5dd043df5da1889ca7448c0309bfc0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\62001fac29df84b18f5cf3c759929db03c93d2c5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\91e3bdcc3fc6b68c2f0d781c95e94397441cb7b2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\4bf8666f3d10397d0f34b418f207185f53c03e1e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\9c21d9f66b6cb05bc075000064de81ec159c6e1e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\liangzheng123456\.android\build-cache\af152beb84f5ea987b8a32077f3b86354cc217ff\output\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:8:9-35
+		REJECTED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:14:9-35
+		REJECTED from [com.github.limedroid:ARecyclerView:v1.2.3] C:\Users\liangzheng123456\.android\build-cache\6a770add190dca5fb977f2cd9a128797b08326ae\output\AndroidManifest.xml:11:9-35
+		REJECTED from [com.github.limedroid:XStateController:v1.1.1] C:\Users\liangzheng123456\.android\build-cache\f6e8266323b4d2b35d7e6b3653c7f5302397b4c7\output\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:9:9-39
+	android:theme
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:12:9-40
+	tools:replace
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:13:9-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:7:9-28
+activity#cn.com.buyforyou.fund.ui.activity.MainActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:16:9-19:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:19:13-49
+	android:launchMode
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:17:13-53
+activity#cn.com.buyforyou.fund.ui.activity.boot.StartActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:24:13-49
+	android:theme
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:22:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:28:27-74
+activity#cn.com.buyforyou.fund.ui.activity.boot.WelcomeActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:33:9-34:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:33:19-67
+activity#cn.com.buyforyou.fund.ui.activity.user.LoginActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:36:9-37:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:36:19-65
+activity#cn.com.buyforyou.fund.ui.activity.user.RegisterFirstActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:39:9-40:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:39:19-73
+activity#cn.com.buyforyou.fund.ui.activity.user.RegisterSecondActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:42:9-43:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:42:19-74
+activity#cn.com.buyforyou.fund.ui.activity.user.RegisterSuccessActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:46:9-47:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:46:19-75
+activity#cn.com.buyforyou.fund.ui.activity.user.SettingActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:49:9-50:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:49:19-67
+activity#cn.com.buyforyou.fund.ui.activity.user.PersonInfoActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:52:9-55:73
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:54:13-49
+	android:windowSoftInputMode
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:55:13-70
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:53:13-64
+activity#cn.com.buyforyou.fund.ui.activity.user.ResidentsTaxInfoActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:57:9-60:73
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:59:13-49
+	android:windowSoftInputMode
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:60:13-70
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:58:13-70
+activity#cn.com.buyforyou.fund.ui.activity.user.PhoneActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:62:9-63:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:62:19-65
+activity#cn.com.buyforyou.fund.ui.activity.user.PhoneChangeActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:65:9-66:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:65:19-71
+activity#cn.com.buyforyou.fund.ui.activity.user.ChangePwdActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:68:9-69:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:68:19-69
+activity#cn.com.buyforyou.fund.ui.activity.user.ChangeLoginPwdActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:71:9-72:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:71:19-74
+activity#cn.com.buyforyou.fund.ui.activity.user.ChangeTradePwdActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:74:9-75:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:74:19-74
+activity#cn.com.buyforyou.fund.ui.activity.user.FindPwdLoginFirstActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:77:9-78:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:77:19-77
+activity#cn.com.buyforyou.fund.ui.activity.user.FindPwdLoginSecondActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:80:9-81:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:80:19-78
+activity#cn.com.buyforyou.fund.ui.activity.user.FindPwdTradeFirstActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:83:9-84:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:83:19-77
+activity#cn.com.buyforyou.fund.ui.activity.user.FindPwdTradeSecondActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:86:9-87:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:86:19-78
+activity#cn.com.buyforyou.fund.ui.activity.user.BankCardActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:89:9-90:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:89:19-68
+activity#cn.com.buyforyou.fund.ui.activity.user.BankCardChangeActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:92:9-93:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:92:19-74
+activity#cn.com.buyforyou.fund.ui.activity.user.SwitchAccountActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:95:9-96:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:95:19-73
+activity#cn.com.buyforyou.fund.ui.activity.user.BankListActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:98:9-99:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:98:19-68
+activity#cn.com.buyforyou.fund.ui.activity.index.PopularityActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:101:9-102:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:101:19-71
+activity#cn.com.buyforyou.fund.ui.activity.index.TimingActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:104:9-105:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:104:19-67
+activity#cn.com.buyforyou.fund.ui.activity.fund.BuyActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:107:9-108:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:107:19-63
+activity#cn.com.buyforyou.fund.ui.activity.fund.BuySuccessActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:110:9-111:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:110:19-70
+activity#cn.com.buyforyou.fund.ui.activity.fund.InvestActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:113:9-114:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:113:19-66
+activity#cn.com.buyforyou.fund.ui.activity.fund.InvestSuccessActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:116:9-117:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:116:19-73
+activity#cn.com.buyforyou.fund.ui.activity.boot.SearchActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:119:9-120:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:119:19-66
+activity#cn.com.buyforyou.fund.ui.activity.boot.SearchTimingActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:122:9-123:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:122:19-72
+activity#cn.com.buyforyou.fund.ui.activity.boot.FundDetailWebActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:125:9-126:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:125:19-73
+activity#cn.com.buyforyou.fund.ui.activity.user.MyInvestActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:128:9-129:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:128:19-68
+activity#cn.com.buyforyou.fund.ui.activity.user.InvestPlanActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:131:9-132:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:131:19-70
+activity#cn.com.buyforyou.fund.ui.activity.user.InvestDeatilActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:134:9-135:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:135:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:134:19-72
+activity#cn.com.buyforyou.fund.ui.activity.user.ResultDetailOneActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:137:9-138:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:138:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:137:19-75
+activity#cn.com.buyforyou.fund.ui.activity.user.ResultDetailTwoActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:140:9-141:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:141:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:140:19-75
+activity#cn.com.buyforyou.fund.ui.activity.user.BonusChangeActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:143:9-144:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:143:19-71
+activity#cn.com.buyforyou.fund.ui.activity.user.BonusChangeSuccessActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:146:9-147:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:147:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:146:19-78
+activity#cn.com.buyforyou.fund.ui.activity.user.SelfChooseActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:149:9-150:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:149:19-70
+activity#cn.com.buyforyou.fund.ui.activity.user.TransactionQueryActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:152:9-153:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:152:19-76
+activity#cn.com.buyforyou.fund.ui.activity.user.TransactionQuerySingleActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:155:9-156:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:156:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:155:19-82
+activity#cn.com.buyforyou.fund.ui.activity.user.BonusActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:158:9-159:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:159:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:158:19-65
+activity#cn.com.buyforyou.fund.ui.activity.user.CancleOrderActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:161:9-162:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:162:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:161:19-71
+activity#cn.com.buyforyou.fund.ui.activity.fund.SellActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:164:9-165:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:165:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:164:19-64
+activity#cn.com.buyforyou.fund.ui.activity.fund.SellSuccessActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:167:9-168:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:168:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:167:19-71
+activity#cn.com.buyforyou.fund.ui.activity.boot.WebPublicActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:171:9-172:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:172:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:171:19-69
+activity#cn.com.buyforyou.fund.ui.activity.boot.WebRiskActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:174:9-175:61
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:175:13-49
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:174:19-67
+activity#cn.com.buyforyou.fund.ui.activity.UpdateAppActivity
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:178:9-181:57
+	android:screenOrientation
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:180:13-49
+	android:theme
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:181:13-54
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:179:13-58
+provider#android.support.v4.content.FileProvider
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:184:9-192:20
+	android:authorities
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:186:13-69
+	android:grantUriPermissions
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:188:13-47
+	android:exported
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:187:13-37
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:185:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:189:13-191:54
+	android:resource
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:191:17-51
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:190:17-67
+uses-permission#android.permission.INTERNET
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:198:5-67
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:198:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:199:5-69
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:199:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:200:5-79
+MERGED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:200:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:201:5-76
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:201:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:202:5-75
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:202:22-72
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:203:5-68
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:203:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:204:5-81
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:204:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:205:5-83
+	android:name
+		ADDED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml:205:22-80
+uses-sdk
+INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.limedroid:ARecyclerView:v1.2.3] C:\Users\liangzheng123456\.android\build-cache\6a770add190dca5fb977f2cd9a128797b08326ae\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.limedroid:XStateController:v1.1.1] C:\Users\liangzheng123456\.android\build-cache\f6e8266323b4d2b35d7e6b3653c7f5302397b4c7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\liangzheng123456\.android\build-cache\e9d43bdd3a4ca04a5add54b8003450df55dd8337\output\AndroidManifest.xml:5:5-43
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-components:2.0.1] C:\Users\liangzheng123456\.android\build-cache\730f8efb7e501e5ccf8cc293601e27a81309fc04\output\AndroidManifest.xml:17:5-44
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-android:2.0.1] C:\Users\liangzheng123456\.android\build-cache\617e2fc4e8323c66e03f8e78bef40781d9668cb7\output\AndroidManifest.xml:17:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\liangzheng123456\.android\build-cache\400a76c0258bc43be4a19a9db42dc6a2f0fbe542\output\AndroidManifest.xml:19:5-43
+MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\liangzheng123456\.android\build-cache\c81750a405d3282f8fbff6e2a898e98a75bc4c5d\output\AndroidManifest.xml:7:5-43
+MERGED from [com.wang.avi:library:1.0.2] C:\Users\liangzheng123456\.android\build-cache\c5117637f8dc73c691c5742743d43c59b795710f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liangzheng123456\.android\build-cache\2a14be516e5426a5914915d17df51386f24ee6ef\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c778bf5299d034556eb042aa7486398beada7421\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\9e46b60e292bd81bc3245a6d28c809f46cf04510\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\04bcf9b79740e313fd7480f1357d2603c54cf372\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\0f499ca157af88e7691f05b07622c4c0896a2097\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\733a41896903f284376b5ce1f0d898afb145a611\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\854caf90c71ff0b86f01365108a980382a2a981b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\f6b43e05a937c105bbb1688f090c23dfc73f7da7\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c532d486ec5dd043df5da1889ca7448c0309bfc0\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\62001fac29df84b18f5cf3c759929db03c93d2c5\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\91e3bdcc3fc6b68c2f0d781c95e94397441cb7b2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\4bf8666f3d10397d0f34b418f207185f53c03e1e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\9c21d9f66b6cb05bc075000064de81ec159c6e1e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\liangzheng123456\.android\build-cache\f4aacc688fc0095ae2e3b20dcb7431901894e24f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\liangzheng123456\.android\build-cache\79510253bc3ebe45b75e2a2d86c24ffcf79c198b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.limxing:PEditTextView:1.2.2] C:\Users\liangzheng123456\.android\build-cache\c69baa994603a75c674a99e7a71c1f69778113a7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.orhanobut:logger:2.1.1] C:\Users\liangzheng123456\.android\build-cache\65bf0faf17b9d90e04ffba8895488019a640e600\output\AndroidManifest.xml:6:5-43
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\liangzheng123456\.android\build-cache\af152beb84f5ea987b8a32077f3b86354cc217ff\output\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c778bf5299d034556eb042aa7486398beada7421\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+		INJECTED from E:\weidongli\Fretting\app\src\main\AndroidManifest.xml
+meta-data#cn.droidlover.xdroidmvp.imageloader.glide.OkHttpGlideModule
+ADDED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:19:9-21:43
+	android:value
+		ADDED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:21:13-40
+	android:name
+		ADDED from [com.github.limedroid:mvp:unspecified] E:\weidongli\Fretting\mvp\build\intermediates\bundles\default\AndroidManifest.xml:20:13-87
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c778bf5299d034556eb042aa7486398beada7421\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\9e46b60e292bd81bc3245a6d28c809f46cf04510\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\04bcf9b79740e313fd7480f1357d2603c54cf372\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\0f499ca157af88e7691f05b07622c4c0896a2097\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\733a41896903f284376b5ce1f0d898afb145a611\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\854caf90c71ff0b86f01365108a980382a2a981b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\f6b43e05a937c105bbb1688f090c23dfc73f7da7\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c532d486ec5dd043df5da1889ca7448c0309bfc0\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\62001fac29df84b18f5cf3c759929db03c93d2c5\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\91e3bdcc3fc6b68c2f0d781c95e94397441cb7b2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\4bf8666f3d10397d0f34b418f207185f53c03e1e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\9c21d9f66b6cb05bc075000064de81ec159c6e1e\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c778bf5299d034556eb042aa7486398beada7421\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\liangzheng123456\.android\build-cache\c778bf5299d034556eb042aa7486398beada7421\output\AndroidManifest.xml:26:9-47

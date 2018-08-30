@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_eaeaea"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen_10"
+            android:paddingLeft="@dimen/dimen_10"
+            android:paddingRight="@dimen/dimen_10"
+            android:paddingTop="@dimen/dimen_20"
+            android:text="主税收居民国信息："
+            android:textColor="@color/color_text_333"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/title_delete"
+            android:layout_width="@dimen/dimen_90"
+            android:layout_height="@dimen/dimen_35"
+            android:layout_marginBottom="@dimen/dimen_20"
+            android:layout_marginLeft="@dimen/dimen_50"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="@dimen/text_size_16" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+
+        <TextView
+            android:layout_width="@dimen/dimen_100"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="税收居民国（地区）:"
+            android:textColor="@color/color_text_333"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tax_resident_countries"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:hint="请选择"
+            android:paddingLeft="@dimen/dimen_15"
+            android:textColor="@color/color_text_333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_divider_horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+
+        <TextView
+            android:layout_width="@dimen/dimen_100"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="可用的纳税识别号码："
+            android:textColor="@color/color_text_333"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tax_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入"
+            android:paddingLeft="@dimen/dimen_15"
+            android:textColor="@color/color_text_333"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_divider_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+
+        <TextView
+            android:layout_width="@dimen/dimen_100"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="无居民国家/地区纳税人识别号的原因："
+            android:textColor="@color/color_text_333"
+            android:paddingBottom="@dimen/dimen_10"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tax_noid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:hint="请选择"
+            android:paddingLeft="@dimen/dimen_15"
+            android:textColor="@color/color_text_333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <include layout="@layout/layout_divider_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/tax_noid_why_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15">
+
+        <TextView
+            android:layout_width="@dimen/dimen_100"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="未能取得纳税人识别号的具体原因："
+            android:textColor="@color/color_text_333"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tax_noid_why"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入"
+            android:paddingLeft="@dimen/dimen_15"
+            android:textColor="@color/color_text_333"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_divider_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <include layout="@layout/layout_head"/>
+    <!--定投成功-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="62.5dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--定投基金-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_210"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="33dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="定投基金"
+                        android:textColor="@color/color_888888"
+                        android:textSize="@dimen/text_size_15"/>
+                    <!--基金编号-->
+                    <TextView
+                        android:id="@+id/tv_fund_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+                    <!--基金名称-->
+                    <TextView
+                        android:id="@+id/tv_fund_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/tv_fund_code"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+                </RelativeLayout>
+                <!--定投日-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="定投日"
+                        android:textColor="@color/color_888888"
+                        android:textSize="@dimen/text_size_15"/>
+                    <!--每月几日-->
+                    <TextView
+                        android:id="@+id/tv_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+                </RelativeLayout>
+                <!--定投金额-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="定投金额"
+                        android:textColor="@color/color_888888"
+                        android:textSize="@dimen/text_size_15"/>
+
+                    <!--单位-->
+                    <TextView
+                        android:id="@+id/font_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="元"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+
+                    <!--金额-->
+                    <TextView
+                        android:id="@+id/tv_fund_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/font_unit"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+                </RelativeLayout>
+                <!--支付方式-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="支付方式"
+                        android:textColor="@color/color_888888"
+                        android:textSize="@dimen/text_size_15"/>
+
+                    <!--尾号-->
+                    <TextView
+                        android:id="@+id/tv_last_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+
+                    <!--银行名称-->
+                    <TextView
+                        android:id="@+id/tv_bank_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/tv_last_number"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_15"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_15">
+                <!--具体扣款时间 2017-12-18 星期一-->
+                <TextView
+                    android:id="@+id/tv_day_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/text_size_15"/>
+                <!--提示-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_day_week"
+                    android:text="将进行新一期定投扣款，请保持账户资金充足"
+                    android:textColor="@color/color_999999"
+                    android:textSize="@dimen/text_size_12"/>
+            </RelativeLayout>
+            <!--注意-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:text="注意：定投日上午9点-12点自动扣款，请在扣款日前一日确保支付账户可用金额充足。如定投扣款失败，系统将在下一交易日补扣一次。"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12"/>
+            <!--完成按钮-->
+            <Button
+                android:id="@+id/sure"
+                style="@style/common_blue_button_rect"
+                android:text="@string/user_common_finish"
+                android:textSize="@dimen/text_size_14"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

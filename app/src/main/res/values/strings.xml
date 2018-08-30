@@ -1,0 +1,123 @@
+<resources>
+
+    <!--首页-->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="buy">购买</string>
+
+
+    <string name="app_name">微动利基金</string>
+    <string name="click_logout">再按一次退出</string>
+    <string name="request_error">服务器繁忙，请稍后重试</string>
+    <string name="input_abc">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--用户界面通用字符串-->
+    <string name="user_common_phone">手机号</string>
+    <string name="user_common_phone_hint">请输入手机号</string>
+    <string name="user_common_password">登录密码</string>
+    <string name="user_common_password_hint">请输入登录密码</string>
+    <string name="user_common_password_again">确认密码</string>
+    <string name="user_common_password_again_hint">请再次输入登录密码</string>
+    <string name="user_common_picture_code">图片验证码</string>
+    <string name="user_common_picture_code_hint">请输入图片验证码</string>
+    <string name="user_common_message_code">验证码</string>
+    <string name="user_common_message_code_hint">请输入短信验证码</string>
+    <string name="user_common_send_code">获取验证码</string>
+    <string name="user_common_next">下一步</string>
+    <string name="user_common_ten_register">10秒开户</string>
+    <string name="user_common_login">登录</string>
+    <string name="user_common_finish">完成</string>
+    <string name="user_common_query_hint">搜索基金名称/代码</string>
+    <string name="user_common_save">保存</string>
+    <string name="user_common_no_login">您还没登录，是否登录</string>
+    <string name="user_common_tv_hint_password">登录密码为8-16位数字、字母、特殊字符等</string>
+
+
+    <string name="user_about_us">关于我们</string>
+    <string name="user_risk_test">风险测评</string>
+    <string name="user_register_service1">微动利证券投资基金投资人权益须知</string>
+    <string name="user_register_service2">微动利基金销售服务协议</string>
+    <string name="index_banner">广告</string>
+
+    <string name="switch_account">切换账户</string>
+    <string name="click_switch_account">点击切换账户</string>
+    <string name="compile">编辑</string>
+    <string name="accomplish">完成</string>
+    <string name="delete">删除</string>
+    <string name="add_account">+添加账户</string>
+
+    <!--注册（基金开户 验证手机号）第一步-->
+    <string name="user_register_first_tv_hint_phone">此手机号为接收交易通知等</string>
+    <string name="user_register_first_choose_account">选择已有账户登录</string>
+    <string name="user_register_first_no_message_code">无法收到验证码?</string>
+    <string name="user_register_first_no_message_code_hint">1.网络通讯异常可能会造成短信丢失，请重新获取或稍后再试;\n2.请核实手机是否欠费停机，或者屏蔽了系统短信</string>
+
+    <!--登录-->
+    <string name="user_login_username">用户</string>
+    <string name="user_login_username_hint">请输入注册手机号/身份证号</string>
+    <string name="user_login_forget_password">忘记登录密码</string>
+
+    <!--开户成功-->
+    <string name="user_register_success_congratulation">恭喜您申请开户成功！</string>
+    <string name="user_register_success_name">姓名</string>
+    <string name="user_register_success_identity">身份证号</string>
+    <string name="user_register_success_risk">去做风险等级测评</string>
+
+    <!--变更交易密码-->
+    <string name="user_update_tradepwd">变更交易密码</string>
+    <string name="user_update_tradepwd_old">旧交易密码</string>
+    <string name="user_update_tradepwd_old_hint">请输入旧的交易密码</string>
+    <string name="user_update_tradepwd_new">新交易密码</string>
+    <string name="user_update_tradepwd_new_hint">请输入新的交易密码</string>
+    <string name="user_update_tradepwd_new_again">确认交易密码</string>
+    <string name="user_update_tradepwd_new_again_hint">请确认新的交易密码</string>
+    <string name="user_update_tradepwd_reset">重置交易密码</string>
+
+    <!--变更登录密码-->
+    <string name="user_update_loginpwd">变更登录密码</string>
+    <string name="user_update_loginpwd_new">新登录密码</string>
+    <string name="user_update_loginpwd_new_hint">请输入登录密码</string>
+    <string name="user_update_loginpwd_new_again">确认登录密码</string>
+    <string name="user_update_loginpwd_new_again_hint">请再次输入登录密码</string>
+
+    <!--变更密码-->
+    <string name="user_update_pwd">变更密码</string>
+    <string name="user_update_pwd_login">登录密码</string>
+    <string name="user_update_pwd_trade">交易密码</string>
+    <string name="user_update_pwd_update">修改</string>
+
+    <!--我的银行卡-->
+    <string name="user_bank_card_hint">注：若您账户在持仓或者在途交易期间，则不能更换银行卡</string>
+    <string name="user_bank_card_change">更换银行卡</string>
+    <string name="user_bank_card_account">交易账号</string>
+
+    <!--我的-->
+    <string name="user_total_assets">总资产(元)</string>
+    <string name="user_passage">在途资产(元)</string>
+    <string name="user_yesterday_earn">昨日收益(元)</string>
+    <string name="user_self_choose">自选</string>
+    <string name="user_timing">定投</string>
+    <string name="user_transaction">交易查询</string>
+    <string name="user_profit">分红</string>
+    <string name="user_remove">撤单</string>
+
+    <!--基金购买页-->
+    <string name="fund_buy">购买</string>
+    <string name="fund_change">更换</string>
+    <string name="fund_amount">金额</string>
+    <string name="fund_sure">确定购买</string>
+    <string name="fund_support_one">基金销售服务由北京微动利基金销售有限公司提供</string>
+    <string name="fund_support_two">基金销售资格：000000358</string>
+
+    <!--基金详情页-->
+    <string name="fund_detail">基金详情页</string>
+
+    <!--结果页-->
+    <string name="result_title_buy">交易详情</string>
+    <string name="result_title_sell">卖出详情</string>
+    <string name="wrong_phone_verify">验证码输入错误，请重试</string>
+    <string name="success_send_phone_verify">手机验证码已发送</string>
+    <!--基金详情页，定投按钮，失败提示-->
+    <string name="invest_notallow">您所绑定的银行卡暂不支持该基金定投业务,请选择申购方式购买！</string>
+
+</resources>

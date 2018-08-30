@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--我的持仓-->
+    <cn.droidlover.xrecyclerview.XRecyclerView
+        android:id="@+id/xrv_user_hold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"/>
+    <!--您还没有持仓-->
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:text="您还没有持仓"
+        android:visibility="gone"
+        />
+</LinearLayout>

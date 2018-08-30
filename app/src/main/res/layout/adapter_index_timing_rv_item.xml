@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_60">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--基金名称-->
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="招商安泰股票"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/color_383F50"/>
+        <!--基金编号-->
+        <TextView
+            android:id="@+id/tv_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:text="0.3948"
+            android:textSize="@dimen/text_size_12"
+            android:textColor="@color/color_97A1B7"/>
+    </LinearLayout>
+    <!--基金收益率-->
+    <TextView
+        android:id="@+id/tv_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="+191.00%"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/color_main"/>
+
+
+</RelativeLayout>

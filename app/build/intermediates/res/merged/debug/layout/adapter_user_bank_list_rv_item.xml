@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_64"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/dimen_15"
+    android:paddingRight="@dimen/dimen_15">
+    <!--银行列表-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--银行图标-->
+        <ImageView
+            android:id="@+id/bank_image"
+            android:layout_width="@dimen/dimen_35"
+            android:layout_height="@dimen/dimen_35"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_15"/>
+        <!--银行名称-->
+        <TextView
+            android:id="@+id/bank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bank_image"
+            android:text=""
+            android:textColor="@color/color_text_333"
+            android:textSize="18dp"/>
+        <!--银行限制-->
+        <TextView
+            android:id="@+id/bank_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bank_name"
+            android:layout_marginTop="@dimen/dimen_2"
+            android:layout_toRightOf="@id/bank_image"
+            android:text=""
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/dimen_12"/>
+
+    </RelativeLayout>
+    <!--分割线-->
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_F9F9F9"/>
+</RelativeLayout>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="66dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--购买信息-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/dimen_30"
+                android:layout_marginRight="@dimen/dimen_30"
+                android:layout_marginTop="@dimen/dimen_20"
+                android:background="@color/color_DC6F5A">
+                <!--股票名称-->
+                <TextView
+                    android:id="@+id/tv_fund_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="xxxxxxx股票"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18"/>
+                <!--购买金额-->
+                <TextView
+                    android:id="@+id/tv_fund_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_fund_name"
+                    android:layout_centerHorizontal="true"
+                    android:text="10.00元"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18"/>
+                <!--银行信息-->
+                <TextView
+                    android:id="@+id/tv_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="招商银行 （2557）支付成功"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_14"/>
+            </RelativeLayout>
+
+            <!--进度-->
+            <LinearLayout
+                android:id="@+id/ll_progress_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30"
+                android:orientation="vertical"
+                android:visibility="visible">
+                <!--支付成功-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/dimen_30"
+                    android:layout_marginLeft="@dimen/dimen_60"
+                    android:layout_marginRight="@dimen/dimen_30">
+
+                    <ImageView
+                        android:id="@+id/iv_pay_success"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/result_iv_selector"/>
+
+                    <!--支付成功-->
+                    <TextView
+                        android:id="@+id/font_pay_success"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/iv_pay_success"
+                        android:text="支付成功"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <!--2017/12/13  13:16:43-->
+                    <TextView
+                        android:id="@+id/tv_pay_success"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/font_pay_success"
+                        android:layout_below="@id/font_pay_success"
+                        android:text="2017/12/13  13:16:43"
+                        android:textColor="@color/color_696969"
+                        android:textSize="@dimen/text_size_14"/>
+                </RelativeLayout>
+                <!--基金公司确认份额-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/dimen_30"
+                    android:layout_marginLeft="@dimen/dimen_60"
+                    android:layout_marginRight="@dimen/dimen_30">
+
+                    <ImageView
+                        android:id="@+id/iv_sure_number"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/result_iv_selector"/>
+
+                    <!--基金公司确认份额-->
+                    <TextView
+                        android:id="@+id/font_sure_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/iv_sure_number"
+                        android:text="基金公司确认份额"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <!--2017/12/14-->
+                    <TextView
+                        android:id="@+id/tv_sure_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/font_sure_number"
+                        android:layout_below="@id/font_sure_number"
+                        android:text="2017/12/14"
+                        android:textColor="@color/color_696969"
+                        android:textSize="@dimen/text_size_14"/>
+                </RelativeLayout>
+                <!--查询收益-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/dimen_15"
+                    android:layout_marginLeft="@dimen/dimen_60"
+                    android:layout_marginRight="@dimen/dimen_30">
+
+                    <ImageView
+                        android:id="@+id/iv_query_income"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/result_iv_selector"/>
+
+                    <!--查询收益-->
+                    <TextView
+                        android:id="@+id/font_query_income"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/iv_query_income"
+                        android:text="查询收益"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <!--2017/12/13  13:16:43-->
+                    <TextView
+                        android:id="@+id/tv_query_income"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/font_query_income"
+                        android:layout_below="@id/font_query_income"
+                        android:text="2017/12/15  18:00前"
+                        android:textColor="@color/color_696969"
+                        android:textSize="@dimen/text_size_14"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--确认信息-->
+            <LinearLayout
+                android:id="@+id/ll_sure_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+                <!--确认信息-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_15"
+                    android:text="确认信息"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <!--确认金额-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="@dimen/dimen_30"
+                    android:layout_marginTop="@dimen/dimen_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="确认金额"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/font_sure_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="元"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_sure_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/font_sure_unit"
+                        android:text="10.00"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                </RelativeLayout>
+
+                <!--确认份额-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="@dimen/dimen_30"
+                    android:layout_marginTop="@dimen/dimen_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="确认份额"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/font_sure_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="份"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_sure_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/font_sure_share"
+                        android:text="21.20"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                </RelativeLayout>
+
+                <!--确认净值-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="@dimen/dimen_30"
+                    android:layout_marginTop="@dimen/dimen_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="确认净值"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_sure_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="0.3821"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                </RelativeLayout>
+
+                <!--确认日期-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="@dimen/dimen_30"
+                    android:layout_marginTop="@dimen/dimen_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="确认日期"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_sure_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="2017-12-18"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                </RelativeLayout>
+
+                <!--手续费-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_30"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="@dimen/dimen_30"
+                    android:layout_marginTop="@dimen/dimen_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="手续费"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/font_sure_yuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="元"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_fee_sx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/font_sure_yuan"
+                        android:text="0.22"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_12"/>
+
+                </RelativeLayout>
+
+                <include layout="@layout/layout_divider_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_20"
+                    android:layout_marginTop="@dimen/dimen_10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="申请编号："
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <TextView
+                        android:id="@+id/tv_allot_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_14"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Carson_Ho</title>
+
+    <script>
+
+
+         // Android调用html js 的方法
+
+         //关注
+         function callJS(token,userId){
+            document.getElementById("show").value=token;
+            document.getElementById("show2").value=userId;
+            alert("Android调用了JS的callJS方法,token="+token+",userId="+userId);
+         }
+
+         //修改分红方式
+         function bonusJS(values){
+            document.getElementById("bonus").value=values;
+
+         }
+
+         //html调用Android js方法
+
+         //登录并关注
+         function callLogin(){
+            // 由于对象映射，所以调用connObj对象等于调用Android映射的对象
+            connObj.toLogin();
+         }
+         //购买
+         function callBuy(){
+            // 由于对象映射，所以调用connObj对象等于调用Android映射的对象
+            connObj.toBuy();
+         }
+         //定投
+         function callInvest(){
+            connObj.toInvest();
+         }
+         //卖出
+         function callSellOut(){
+            connObj.toSellOut();
+         }
+         //交易记录
+         function callRecord(){
+            connObj.toRecord();
+         }
+         //定投计划
+         function callInvestPlan(){
+            connObj.toInvestPlan();
+         }
+         //分红方式
+         function callBonus(){
+            connObj.toBonus();
+         }
+         //返回首页
+         function callAppIndex(){
+            connObj.toAppIndex();
+         }
+
+
+
+
+    </script>
+</head>
+
+<!-- 点击按钮则调用callAndroid（）方法  -->
+<body>
+<button type="button" id="button1" onclick="callLogin()">点击调用Android代码登录</button>
+
+<button type="button" id="button2" onclick="callJS('1234','12345678')">点击调用callJS</button>
+<button type="button" id="button3" onclick="callBuy()">购买</button>
+<button type="button" id="button4" onclick="callInvest()">定投</button>
+<br/>
+<input type="text" id="show"/>
+<br/>
+<input type="text" id="show2"/>
+<button type="button" id="button5" onclick="callInvestPlan()">定投计划</button>
+<br/>
+<input type="text" id="bonus" value="现金分红"/>
+<button type="button" id="button6" onclick="callBonus()">分红方式</button>
+<br/>
+<button type="button" id="button7" onclick="callRecord()">交易记录</button>
+<br/>
+<button type="button" id="button8" onclick="callSellOut()">卖出</button>
+<br/>
+<button type="button" id="button9" onclick="callAppIndex()">返回首页</button>
+<br/>
+
+</body>
+</html>

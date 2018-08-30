@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--撤单-->
+    <include layout="@layout/layout_head"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <cn.droidlover.xrecyclerview.XRecyclerView
+                android:id="@+id/xrv_my_invest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"/>
+
+            <TextView
+                android:id="@+id/tv_empty"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="暂无可撤单交易"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/text_size_14"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_15"
+                android:text="· 交易日15:OO前的交易，只能在当日15:OO前办理撤单申请，逾期则无法撤单。"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_5"
+                android:text="· 对于申购支付成功的交易，退款时间为: T日(交易日)15:OO之前的交易撤单，一般情况下T+1个工作日退款。"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12"
+                android:layout_marginBottom="@dimen/dimen_20"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

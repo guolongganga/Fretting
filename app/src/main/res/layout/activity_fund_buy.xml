@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_head"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_change"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_64"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="@color/white">
+            <!--银行logo-->
+            <ImageView
+                android:id="@+id/bank_image"
+                android:layout_width="@dimen/dimen_35"
+                android:layout_height="@dimen/dimen_35"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                />
+            <!--银行名称和尾号 招商银行(2339)-->
+            <TextView
+                android:id="@+id/bank_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/bank_image"
+                android:textColor="@color/color_text_333"
+                android:textSize="18dp"/>
+            <!--限额 单笔上限10万，单日限额50万-->
+            <TextView
+                android:id="@+id/bank_limit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bank_name"
+                android:layout_toRightOf="@id/bank_image"
+                android:layout_marginTop="@dimen/dimen_2"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/dimen_12"/>
+            <!--箭头-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:src="@drawable/icon_common_arrow_right"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_118"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen_15">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_78.5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <!--金额-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_26"/>
+                <!--金额输入-->
+                <EditText
+                    android:id="@+id/et_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="最低购买金额1000元"
+
+                    android:inputType="numberDecimal|number"
+                    android:textColor="@color/color_333333"
+                    android:textColorHint="@color/color_CCCCCC"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <View style="@style/divider_half_e7"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_37"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <!--申购费-->
+                <TextView
+                    android:id="@+id/tv_poundage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_15"
+                    android:textColor="@color/color_9B9B9B"
+                    android:textSize="@dimen/text_size_12"/>
+                <!--费率-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="费率"
+                    android:textColor="@color/color_9B9B9B"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    android:id="@+id/tv_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_3"
+                    android:textColor="@color/color_main"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    android:id="@+id/tv_apply_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:textColor="@color/color_9B9B9B"
+                    android:textSize="@dimen/text_size_12"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bonus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/dimen_15">
+            <!--分红方式-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:text="分红方式"/>
+            <!--金额输入-->
+            <TextView
+                android:id="@+id/tv_bonus_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_10"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="right"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/text_size_15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_common_arrow_right"/>
+        </LinearLayout>
+
+
+        <!--15点前买入将按照12月15日净值确认份额-->
+        <TextView
+            android:id="@+id/tv_sure_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:textColor="@color/color_9B9B9B"
+            android:textSize="@dimen/text_size_12"/>
+        <!--12月18日可查看份额信息，12月19号可查看收益-->
+        <TextView
+            android:id="@+id/tv_look_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:textColor="@color/color_9B9B9B"
+            android:textSize="@dimen/text_size_12"/>
+        <!--确认购买-->
+        <Button
+            android:id="@+id/sure"
+            style="@style/common_blue_button_rect"
+            android:background="@color/color_B9D1F8"
+            android:text="@string/fund_sure"/>
+
+
+    </LinearLayout>
+    <!--公司提供-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fund_support_one"
+            android:textColor="@color/color_9B9B9B"
+            android:textSize="@dimen/text_size_12"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fund_support_two"
+            android:textColor="@color/color_9B9B9B"
+            android:textSize="@dimen/text_size_12"/>
+    </LinearLayout>
+
+</RelativeLayout>

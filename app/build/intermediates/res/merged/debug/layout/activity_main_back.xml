@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--内容页-->
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <!--底部Tab-->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_5"
+        android:paddingTop="@dimen/dimen_5"
+        android:visibility="gone">
+        <!--首页tab-->
+        <TextView
+            android:id="@+id/tv_index"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_index"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/tab_text_color"
+            android:textSize="@dimen/text_size_10" />
+        <!--基金Tab-->
+        <TextView
+            android:id="@+id/tv_fund"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_fund"
+            android:gravity="center"
+            android:text="基金"
+            android:textColor="@color/tab_text_color"
+            android:textSize="@dimen/text_size_10" />
+        <!--Tab我的-->
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_user"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/tab_text_color"
+            android:textSize="@dimen/text_size_10" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/read_button_bg" />
+
+    <RadioGroup
+        android:id="@+id/main_bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_5">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/main_bottom_index"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/tab_index"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_fund"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/tab_fund"
+            android:text="基金" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_mine"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/tab_user"
+            android:text="我的" />
+
+
+    </RadioGroup>
+</RelativeLayout>

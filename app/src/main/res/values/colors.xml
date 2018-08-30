@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A81C00</color>
+    <color name="colorPrimaryDark">#A81C00</color>
+    <color name="colorAccent">#A81C00</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_divider">#E7E7E7</color>
+    <color name="color_eaeaea">#eaeaea</color>
+
+    <!--导航栏字体颜色 主色调-->
+    <color name="color_main">#A81C00</color>
+    <color name="color_main_tint">#6CA7ED</color>
+    <color name="color_1862b7">#1862B7</color>
+
+
+    <color name="color_1a7bcd">#1a7bcd</color>
+    <color name="color_f6cf47">#f6cf47</color>
+    <color name="color_f7182d">#f7182d</color>
+    <color name="color_DC6F5A">#DC6F5A</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_696969">#696969</color>
+    <!--半透明灰色-->
+    <color name="color_80696969">#80696969</color>
+    <color name="color_text_333">#333333</color>
+    <color name="color999999">#999999</color>
+    <!--未登录页面背景色-->
+    <color name="color_f7f8f8">#f7f8f8</color>
+
+    <color name="province_line_border">#cdcdcd</color>
+    <!--分割线-->
+    <color name="color_line_dividing">#E7E7E7</color>
+    <!--弹框背景色-->
+    <color name="color_67">#a0abbb</color>
+
+    <!--颜色-->
+    <color name="color_80FFFFFF">#80FFFFFF</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_B3FFFFFF">#B3FFFFFF</color>
+    <color name="color_38000000">#38000000</color>
+    <color name="color_4D7BFE">#4D7BFE</color>
+    <color name="color_B9D1F8">#B9D1F8</color>
+    <color name="color_407FE7">#407FE7</color>
+    <color name="color_508CEE">#508CEE</color>
+    <color name="color_DCDCDC">#DCDCDC</color>
+    <color name="color_D1D1D6">#D1D1D6</color>
+
+    <!--默认浅细线颜色-->
+    <color name="color_F9F9F9">#F9F9F9</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_E7E7E7">#E7E7E7</color>
+    <color name="color_EFEFEF">#EFEFEF</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_9F9F9F">#9F9F9F</color>
+    <color name="color_A9A9A9">#A9A9A9</color>
+    <color name="color_ABABAB">#ABABAB</color>
+    <color name="color_FDFDFD">#FDFDFD</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_BAB9CA">#BAB9CA</color>
+
+    <!--字体颜色-->
+    <color name="color_444444">#444444</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_A4A4A4">#A4A4A4</color>
+    <color name="color_2A2A2A">#2A2A2A</color>
+    <color name="color_3E3E3E">#3E3E3E</color>
+    <color name="color_97A1B7">#97A1B7</color>
+    <color name="color_383F50">#383F50</color>
+    <color name="color_141414">#141414</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_9B9B9B">#9B9B9B</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_818181">#818181</color>
+    <color name="color_727272">#727272</color>
+    <color name="color_504B4A">#504B4A</color>
+
+
+    <color name="colorAccentPress">#DC6F5A</color>
+
+
+</resources>

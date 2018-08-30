@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_boot_search_hot_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_boot_search_hot_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pop_bottom_selector_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_pop_bottom_selector_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fund.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_fund.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_setting.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_setting.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_pop.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\layout_select_pop.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_two_welcome.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\item_two_welcome.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tax_list.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_tax_list.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_invest.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_invest.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_drop_selector.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\pop_drop_selector.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_boot_search.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_boot_search.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_index_timing_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_index_timing_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_divider_horizontal.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\layout_divider_horizontal.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_buy.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_buy.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fund_currency.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_fund_currency.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_fund_content_spinner_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_fund_content_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_transaction_content_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_transaction_content_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pop_drop_selector_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_pop_drop_selector_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_wait_sure.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_user_wait_sure.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_bankcard_change.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_bankcard_change.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_findpwd_second_login.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_findpwd_second_login.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_show_image_code.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\pop_show_image_code.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_boot_search_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_boot_search_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_switch_account_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_switch_account_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_invest_plan.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_invest_plan.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_invest_plan_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_invest_plan_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_findpwd_second_trade.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_findpwd_second_trade.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_login.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_login.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty_search.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\view_empty_search.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_my_invest.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_my_invest.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_city_select.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\layout_city_select.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_phone_change.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_phone_change.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_result_one.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_result_one.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_invest_success.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_invest_success.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_update_bonus_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_update_bonus_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_switch_account.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_switch_account.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_changepwd.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_changepwd.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_wait_sure_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_wait_sure_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_changepwd_login.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_changepwd_login.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_register_bindcard.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_register_bindcard.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_bottom_selector.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\pop_bottom_selector.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_fund_content_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_fund_content_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_personinfo.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_personinfo.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_taxinfo.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_taxinfo.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_register_success.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_register_success.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_bonus_change.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_bonus_change.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_my_fund_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_my_fund_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_app.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_update_app.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\public_title.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\public_title.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_popularity.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_index_popularity.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_result_three.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_result_three.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_bonus_success.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_bonus_success.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_view_footer_load_more_simple.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\6a770add190dca5fb977f2cd9a128797b08326ae\\output\\res\\layout\\x_view_footer_load_more_simple.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_self_choose_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_self_choose_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_head_nopadding.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\layout_head_nopadding.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_sell.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_sell.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_index_hot_news_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_index_hot_news_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_loading.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\view_loading.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_head.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\layout_head.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_self_choose.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_self_choose.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_state.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\view_state.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_buy_success.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_buy_success.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_result_two.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_result_two.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_back.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_main_back.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_sell_success.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_sell_success.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_transaction_content.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_user_transaction_content.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_fund_buy_layout.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\dialog_fund_buy_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_index_timing.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_index_timing.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_drop_selector_bg_white.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\pop_drop_selector_bg_white.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_http_loading.xml",
+        "source": "E:\\weidongli\\Fretting\\mvp\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_http_loading.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_one_welcome.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\item_one_welcome.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_three_welcome.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\item_three_welcome.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_cancle_order_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_cancle_order_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_index_prefer_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_index_prefer_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_bank_list_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_bank_list_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_changepwd_trade.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_changepwd_trade.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_error.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\view_error.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\view_empty.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fund_content.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_fund_content.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_index_popularity_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_index_popularity_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_normal_layout.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\dialog_normal_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_user_invest_record_rv_item.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\adapter_user_invest_record_rv_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\c778bf5299d034556eb042aa7486398beada7421\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_cancle_order.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_cancle_order.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_hold.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_user_hold.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_public.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_web_public.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_index.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_index.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_phone.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_phone.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_bank_list.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_bank_list.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_bankcard.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_bankcard.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_bonus_content.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\fragment_user_bonus_content.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_view_recycler_content_layout.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\6a770add190dca5fb977f2cd9a128797b08326ae\\output\\res\\layout\\x_view_recycler_content_layout.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_findpwd_first.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_findpwd_first.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_register_first.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_register_first.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\liangzheng123456\\.android\\build-cache\\9e46b60e292bd81bc3245a6d28c809f46cf04510\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fund_invest_update.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_fund_invest_update.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_divider_tint.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\layout_divider_tint.xml"
+    },
+    {
+        "merged": "E:\\weidongli\\Fretting\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_invest_detail.xml",
+        "source": "E:\\weidongli\\Fretting\\app\\src\\main\\res\\layout\\activity_user_invest_detail.xml"
+    }
+]

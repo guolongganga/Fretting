@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+    <!--我的银行卡 更换银行卡-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="66dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_f7f7f7"
+            android:orientation="vertical">
+
+            <!--个人信息-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/dimen_5"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/color_main"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="个人信息"
+                    android:textColor="@color/color_696969"/>
+
+            </LinearLayout>
+
+            <!--姓名-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="姓名"
+                    style="@style/text_bold_16"/>
+                <!--请输入姓名-->
+                <EditText
+                    android:id="@+id/user_name"
+                    android:hint="请输入姓名"
+                    android:inputType="text"
+                    style="@style/edit_user_15"
+                    />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+
+            <!--身份证号-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="身份证号"
+                    style="@style/text_bold_16"/>
+                <!--请输入身份证号-->
+                <EditText
+                    android:id="@+id/identity"
+                    android:hint="请输入身份证号"
+                    android:inputType="text"
+                    style="@style/edit_user_15"
+                    />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+
+            <!--邮箱-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="邮箱(可选)"
+                    style="@style/text_bold_16"/>
+                <!--请输入邮箱-->
+                <EditText
+                    android:id="@+id/email"
+                    android:hint="请输入邮箱"
+                    android:inputType="text"
+                    style="@style/edit_user_15"
+                    />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+
+            <!--银行卡信息-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/dimen_5"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/color_main"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="银行卡信息"
+                    android:textColor="@color/color_696969"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_choose_bank"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="@dimen/small_margin_size">
+                <!--银行名称-->
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="银行名称"
+                    style="@style/text_bold_16"/>
+                <!--显示选择的银行-->
+                <TextView
+                    android:id="@+id/banck_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:textColor="@color/color_text_333"
+                    android:textColorHint="@color/color_CCCCCC"
+                    android:textSize="@dimen/text_size_15"/>
+                <!--小箭头-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_common_arrow_right"/>
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+            <!--银行卡号-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="银行卡号"
+                    style="@style/text_bold_16"/>
+                <!--请输入银行卡号-->
+                <EditText
+                    android:id="@+id/banknumber"
+                    android:hint="请输入银行卡号"
+                    android:inputType="number"
+                    style="@style/edit_user_15"
+                    />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+            <!--手机号-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="手机号"
+                    style="@style/text_bold_16"/>
+                <!--请输入预留手机号-->
+                <EditText
+                    android:id="@+id/phone"
+                    android:hint="请输入预留手机号"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    style="@style/edit_user_15"
+                    />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+
+            <!--设置交易密码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/dimen_5"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/color_main"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="设置交易密码"
+                    android:textColor="@color/color_696969"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_5"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_5"
+                android:text="密码长度为6位，只能包含数字、字母，不能含有3个连续相同，3个以上(含3个)的连续数字或字母"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12"/>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+            <!--新交易密码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="交易密码"
+                    style="@style/text_bold_16"/>
+                <!--小眼睛点击-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:hintEnabled="false"
+                    app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                    app:passwordToggleEnabled="true">
+                    <!--新交易密码输入-->
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="请输入新的交易密码"
+                        android:inputType="textPassword"
+                        android:maxLength="6"
+                        style="@style/edit_user_15"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+            <!--再次输入交易密码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/small_margin_size"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:text="确认交易密码"
+                    style="@style/text_bold_16"/>
+                <!--小眼睛点击-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:hintEnabled="false"
+                    app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                    app:passwordToggleEnabled="true">
+                    <!--再次输入交易密码-->
+                    <EditText
+                        android:id="@+id/password_again"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="请确认新的交易密码"
+                        android:inputType="textPassword"
+                        android:maxLength="6"
+                        style="@style/edit_user_15"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal"/>
+            <!--协议-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_35"
+                android:layout_marginRight="@dimen/dimen_35"
+                android:layout_marginTop="@dimen/dimen_15"
+                android:orientation="horizontal">
+                <!--勾选框-->
+                <ImageView
+                    android:id="@+id/register_service_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/register_iv_selector"/>
+                <!--我同意《xxx协议》-->
+                <TextView
+                    android:id="@+id/register_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:layout_weight="1"
+                    android:text="我已阅读并同意《北京微动利基金销售有限公司基金电子直销服务协议》 与《投资人权益须知协议》"
+                    android:textColor="@color/color_9B9B9B"
+                    android:textSize="@dimen/text_size_12"/>
+
+            </LinearLayout>
+
+            <!--下一步-->
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/common_red_button_circle"
+                android:text="保 存"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+
+
+
+

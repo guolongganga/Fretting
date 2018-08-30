@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_35">
+        <!--基金名称-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:text="基金名称"
+            android:textColor="@color/color_97A1B7"
+            android:textSize="@dimen/text_size_11"/>
+        <!--净值-->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="right"
+            android:text="净值"
+            android:textColor="@color/color_97A1B7"
+            android:textSize="@dimen/text_size_11"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="@dimen/dimen_15">
+            <!--日涨幅 条件-->
+            <TextView
+                android:id="@+id/tv_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="5dp"
+                android:text="日涨幅"
+                android:textColor="@color/color_97A1B7"
+                android:textSize="@dimen/text_size_11"/>
+            <!--小三角图标-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_range"
+                android:layout_marginBottom="@dimen/dimen_5"
+                android:layout_toRightOf="@id/tv_range"
+                android:src="@drawable/icon_fund_day_raise"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--横线-->
+    <View
+        android:id="@+id/view_line"
+        style="@style/divider_half_e7"/>
+
+    <!--基金列表-->
+    <cn.droidlover.xrecyclerview.XRecyclerContentLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dimen_15"
+        android:paddingRight="@dimen/dimen_15"
+        app:recyclerBackgroundColor="@color/white"
+        app:recyclerScrollbarNone="true"
+        app:recyclerScrollbarStyle="outsideOverlay"
+        app:x_emptyLayoutId="@layout/view_empty"/>
+
+</LinearLayout>

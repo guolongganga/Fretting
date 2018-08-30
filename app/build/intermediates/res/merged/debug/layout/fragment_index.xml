@@ -1,0 +1,460 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".ui.fragment.index.IndexFragment">
+
+    <!--基金搜索-->
+    <RelativeLayout
+        android:id="@+id/rl_name_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_62.5"
+        android:background="@color/color_main"
+        android:gravity="center"
+        android:paddingTop="@dimen/dimen_22">
+        <!--白色透明的圆角矩形-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_30"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:layout_marginRight="@dimen/dimen_15"
+            android:background="@drawable/shape_index_name_search">
+            <!-- 图标 和 搜索基金名称/代码-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/icon_common_search_white"
+                android:text="   搜索基金名称/代码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <!--刷新-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_name_search"
+        android:visibility="visible">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <!--轮播banner-->
+                <cn.droidlover.xdroidmvp.banner.FlyBanner
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_122"/>
+
+                <!--分割线-->
+                <View style="@style/divider_10dp_f9"/>
+
+                <!--明星基金-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_55"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <!--蓝色小短线-->
+                    <View style="@style/blue_short_rect"/>
+
+                    <!--明星基金 文字-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="明星基金"
+                        android:textColor="@color/color_444444"
+                        android:textSize="@dimen/text_size_16"/>
+
+                </LinearLayout>
+
+                <!--明星基金内容-->
+                <RelativeLayout
+                    android:id="@+id/ll_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_111"
+                    android:layout_marginBottom="@dimen/dimen_20"
+                    android:layout_marginLeft="@dimen/dimen_15"
+                    android:layout_marginRight="@dimen/dimen_15"
+                    android:background="@drawable/shape_bg_index_start">
+
+                    <!--基金名称-->
+                    <TextView
+                        android:id="@+id/tv_wan_earnings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_9"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="国泰互联网金鑫股票"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/text_size_18"/>
+
+                    <!--利率-->
+                    <TextView
+                        android:id="@+id/tv_seven_earnings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_37"
+                        android:layout_marginTop="@dimen/dimen_38"
+                        android:text="48.93"
+                        android:textColor="@color/color_main"
+                        android:textSize="@dimen/text_size_30"/>
+
+                    <!--利率 百分号-->
+                    <TextView
+                        android:id="@+id/tv_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_seven_earnings"
+                        android:layout_toRightOf="@id/tv_seven_earnings"
+                        android:text="%"
+                        android:textColor="@color/color_main"
+                        android:textSize="@dimen/text_size_20"/>
+
+                    <!--利率描述 近一年收益率-->
+                    <TextView
+                        android:id="@+id/tv_star_rate_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_seven_earnings"
+                        android:layout_marginLeft="@dimen/dimen_37"
+                        android:text="近一年收益率"
+                        android:textColor="@color/color_A4A4A4"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <!--中间的小箭头 图标-->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dimen_65"
+                        android:src="@drawable/icon_index_arrow"/>
+
+                    <!--购买 按钮-->
+                    <Button
+                        android:id="@+id/btn_buy"
+                        android:layout_width="@dimen/dimen_90"
+                        android:layout_height="@dimen/dimen_36"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/dimen_32"
+                        android:layout_marginTop="@dimen/dimen_54"
+                        android:background="@drawable/shape_rect_red_btn"
+                        android:text="@string/buy"
+                        android:textColor="@color/color_FFFFFF"
+                        android:textSize="@dimen/text_size_16"/>
+
+                </RelativeLayout>
+
+                <!--分割线-->
+                <View style="@style/divider_10dp_f9"/>
+
+                <!--微动利专题-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_55"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <!--蓝色小短线-->
+                    <View style="@style/blue_short_rect"/>
+
+                    <!--微动利专题 字体-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="微动利专题"
+                        android:textColor="@color/color_444444"
+                        android:textSize="@dimen/text_size_16"/>
+
+                </LinearLayout>
+                <!--三张图片-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:layout_marginBottom="@dimen/dimen_20"
+                    android:layout_marginLeft="@dimen/dimen_15"
+                    android:layout_marginRight="@dimen/dimen_15"
+                    android:orientation="horizontal">
+
+                    <!--第一张图片-->
+                    <ImageView
+                        android:id="@+id/iv_theme_one"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                    <!--第二张图片-->
+                    <ImageView
+                        android:id="@+id/iv_theme_two"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen_10"
+                        android:layout_marginRight="@dimen/dimen_10"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                    <!--第三张图片-->
+                    <ImageView
+                        android:id="@+id/iv_theme_three"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                </LinearLayout>
+
+                <!--分割线-->
+                <View style="@style/divider_10dp_f9"/>
+
+                <!--人气产品-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_55"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <!--蓝色小短线-->
+                    <View style="@style/blue_short_rect"/>
+
+                    <!--人气产品 文字-->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_weight="1"
+                        android:text="人气产品"
+                        android:textColor="@color/color_444444"
+                        android:textSize="@dimen/text_size_16"/>
+
+                    <!--更多-->
+                    <TextView
+                        android:id="@+id/popularity_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="更多"
+                        android:paddingRight="@dimen/dimen_7"
+                        android:textColor="@color/color_main"/>
+
+                    <!--箭头-->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_15"
+                        android:src="@drawable/icon_common_arrow"/>
+
+                </LinearLayout>
+                <!--人气产品列表 -->
+                <cn.droidlover.xrecyclerview.XRecyclerView
+                    android:id="@+id/xrv_popularity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:overScrollMode="never"/>
+
+                <View style="@style/divider_10dp_f9"/>
+
+                <!--指数基金-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_55"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <!--蓝色小短线-->
+                    <View style="@style/blue_short_rect"/>
+
+                    <!--指数基金 文字-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:text="指数基金"
+                        android:textColor="@color/color_444444"
+                        android:textSize="@dimen/text_size_16"/>
+
+                </LinearLayout>
+                <!--指数基金 内容-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_94"
+                    android:orientation="horizontal">
+                    <!-- 指数基金一 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_finger_one"
+                        android:layout_width="@dimen/dimen_0"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/dimen_15"
+                        android:paddingRight="@dimen/dimen_15">
+                        <!--基金名称-->
+                        <TextView
+                            android:id="@+id/tv_nvshen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="中欧新蓝筹优选"
+                            android:textColor="@color/color_333333"
+                            android:textSize="@dimen/text_size_16"/>
+
+                        <!--利率-->
+                        <TextView
+                            android:id="@+id/tv_nvshen_shouyi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_nvshen"
+                            android:layout_centerHorizontal="true"
+                            android:text="38.99%"
+                            android:textColor="@color/color_main"
+                            android:textSize="@dimen/text_size_26"/>
+
+                        <!-- 利率描述 近一年收益率-->
+                        <TextView
+                            android:id="@+id/tv_finger_one_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_nvshen_shouyi"
+                            android:layout_centerHorizontal="true"
+                            android:text="近一年收益率"
+                            android:textColor="@color/color_A4A4A4"
+                            android:textSize="@dimen/text_size_12"/>
+
+                    </RelativeLayout>
+                    <!--竖直分割线-->
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/dimen_16"
+                        android:background="@color/color_F9F9F9"/>
+
+                    <!-- 指数基金二 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_finger_two"
+                        android:layout_width="@dimen/dimen_0"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/dimen_15"
+                        android:paddingRight="@dimen/dimen_15">
+
+                        <TextView
+                            android:id="@+id/tv_chihuo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="沪港深新起点股票"
+                            android:textColor="@color/color_333333"
+                            android:textSize="@dimen/text_size_16"/>
+
+                        <TextView
+                            android:id="@+id/tv_chihuo_shouyi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_chihuo"
+                            android:layout_centerHorizontal="true"
+                            android:text="46.24%"
+                            android:textColor="@color/color_main"
+                            android:textSize="@dimen/text_size_26"/>
+
+                        <TextView
+                            android:id="@+id/tv_finger_two_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_chihuo_shouyi"
+                            android:layout_centerHorizontal="true"
+                            android:text="近一年收益率"
+                            android:textColor="@color/color_A4A4A4"
+                            android:textSize="@dimen/text_size_12"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <!--分割线-->
+                <View style="@style/divider_10dp_f9"/>
+
+                <!--优选定投-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_55"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <!--蓝色小短线-->
+                    <View style="@style/blue_short_rect"/>
+
+                    <!--优选定投 文字-->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="优选定投"
+                        android:textColor="@color/color_444444"
+                        android:textSize="@dimen/text_size_16"/>
+
+                    <!--更多-->
+                    <TextView
+                        android:id="@+id/timing_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="更多"
+                        android:paddingRight="@dimen/dimen_7"
+                        android:textColor="@color/color_main"/>
+
+                    <!--箭头-->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_15"
+                        android:src="@drawable/icon_common_arrow"/>
+
+                </LinearLayout>
+
+                <cn.droidlover.xrecyclerview.XRecyclerView
+                    android:id="@+id/xrv_prefer"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"/>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_name_search"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="网络错误，请检查您的网络连接是否正常"
+        android:visibility="gone"/>
+</RelativeLayout>

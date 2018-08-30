@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\weidongli\Fretting\mvp\src\main\res"/><source path="E:\weidongli\Fretting\mvp\build\generated\res\rs\release"/><source path="E:\weidongli\Fretting\mvp\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="E:\weidongli\Fretting\mvp\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\weidongli\Fretting\mvp\src\main\res"><file name="dialog_http_loading_style" path="E:\weidongli\Fretting\mvp\src\main\res\drawable\dialog_http_loading_style.xml" qualifiers="" type="drawable"/><file name="selector_bgabanner_point" path="E:\weidongli\Fretting\mvp\src\main\res\drawable\selector_bgabanner_point.xml" qualifiers="" type="drawable"/><file name="dialog_http_loading" path="E:\weidongli\Fretting\mvp\src\main\res\layout\dialog_http_loading.xml" qualifiers="" type="layout"/><file name="dialog_http_loading_bkg" path="E:\weidongli\Fretting\mvp\src\main\res\mipmap-hdpi\dialog_http_loading_bkg.png" qualifiers="hdpi-v4" type="mipmap"/><file name="dialog_http_loading_icon" path="E:\weidongli\Fretting\mvp\src\main\res\mipmap-hdpi\dialog_http_loading_icon.png" qualifiers="hdpi-v4" type="mipmap"/><file path="E:\weidongli\Fretting\mvp\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="FlyBanner">
+        <attr format="boolean" name="points_visibility"/>
+        <attr format="enum" name="points_position">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr>
+        <attr format="reference|color" name="points_container_background"/>
+    </declare-styleable></file><file path="E:\weidongli\Fretting\mvp\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Mvp</string></file><file path="E:\weidongli\Fretting\mvp\src\main\res\values\values.xml" qualifiers=""><dimen name="size_16">16sp</dimen><style name="Dialog_Style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style><dimen name="dimen_15">15dp</dimen><style name="dialog_http_loading_style">
+        <item name="android:indeterminateDrawable">@drawable/dialog_http_loading_style</item>
+        <item name="android:minWidth">@dimen/dimen_40</item>
+        <item name="android:maxWidth">@dimen/dimen_40</item>
+        <item name="android:minHeight">@dimen/dimen_40</item>
+        <item name="android:maxHeight">@dimen/dimen_40</item>
+    </style><string name="dialog_http_loading_message_upload">正在上传...</string><dimen name="dimen_100">100dp</dimen><string name="dialog_http_loading_message_default">加载中...</string><dimen name="dimen_40">40dp</dimen><string name="app_name_dialog">CommonDialog</string><string name="dialog_http_loading_message_working">处理中...</string></file></source><source path="E:\weidongli\Fretting\mvp\build\generated\res\rs\release"/><source path="E:\weidongli\Fretting\mvp\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="E:\weidongli\Fretting\mvp\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="FlyBanner"><attr format="boolean" name="points_visibility"/><attr format="enum" name="points_position">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr><attr format="reference|color" name="points_container_background"/></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head" />
+    <!--涉税信息-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_62.5"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tax_tiletop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_eaeaea"
+                android:padding="@dimen/dimen_10"
+                android:text="您的居民税收类型为："
+                android:textColor="@color/color_text_333"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="@dimen/dimen_48"
+                    android:gravity="center_vertical"
+                    android:text="现居住国家:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/countries"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="现居住详细地址:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="@dimen/dimen_48"
+                    android:gravity="center_vertical"
+                    android:text="出生国家:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/born_countries"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="出生省份/城市:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/address_provinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="@dimen/dimen_48"
+                    android:gravity="center_vertical"
+                    android:text="姓（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/surname_e"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="@dimen/dimen_48"
+                    android:gravity="center_vertical"
+                    android:text="名（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/name_e"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="现居住国家（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/now_living_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="现居住地址（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/now_address_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="现居住详细地址（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/now_address_detailed"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="出生国家（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/country_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="出生省份/城市（英文）:"
+                    android:textColor="@color/color_text_333"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/born_provinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:textColor="@color/color_text_333"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+
+            <com.zhsoft.fretting.ui.widget.wheel.ScrollListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_15"
+                android:background="@color/color_eaeaea" />
+
+            <TextView
+                android:id="@+id/add_tax_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50"
+                android:gravity="center"
+                android:text="增加其他税收居民国信息"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_15" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_15"
+                android:background="@color/color_eaeaea" />
+
+            <!--保存-->
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/common_blue_button_rect"
+                android:layout_gravity="center_horizontal"
+                android:text="保存" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

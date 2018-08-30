@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+    <!--变更密码-交易密码-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_62.5"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_8"
+                android:layout_marginLeft="@dimen/dimen_30"
+                android:layout_marginRight="@dimen/dimen_30"
+                android:layout_marginTop="@dimen/dimen_15"
+                android:text="密码长度为6位，只能包含数字、字母，不能含有3个连续相同，3个以上(含3个)的连续数字或字母"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:background="@color/color_FFFFFF"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+                <!--旧交易密码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_bold_16"
+                        android:layout_width="110dp"
+                        android:text="@string/user_update_tradepwd_old"/>
+                    <!--小眼睛点击-->
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:hintEnabled="false"
+                        app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                        app:passwordToggleEnabled="true">
+                        <!--输入旧的交易密码-->
+                        <EditText
+                            android:id="@+id/oldpassword"
+                            style="@style/edit_user_15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:hint="@string/user_update_tradepwd_old_hint"
+                            android:inputType="textPassword"
+                            android:maxLength="6"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <View style="@style/divider_half_ba"/>
+                <!--新交易密码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_bold_16"
+                        android:layout_width="110dp"
+                        android:text="@string/user_update_tradepwd_new"/>
+                    <!--小眼睛点击-->
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:hintEnabled="false"
+                        app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                        app:passwordToggleEnabled="true">
+                        <!--新交易密码输入-->
+                        <EditText
+                            android:id="@+id/password"
+                            style="@style/edit_user_15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:hint="@string/user_update_tradepwd_new_hint"
+                            android:inputType="textPassword"
+                            android:maxLength="6"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <View style="@style/divider_half_ba"/>
+                <!--再次输入交易密码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_bold_16"
+                        android:layout_width="110dp"
+                        android:text="@string/user_update_tradepwd_new_again"/>
+                    <!--小眼睛点击-->
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:hintEnabled="false"
+                        app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                        app:passwordToggleEnabled="true">
+                        <!--再次输入交易密码-->
+                        <EditText
+                            android:id="@+id/password_again"
+                            style="@style/edit_user_15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:hint="@string/user_update_tradepwd_new_again_hint"
+                            android:inputType="textPassword"
+                            android:maxLength="6"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--重置交易密码-->
+            <TextView
+                android:id="@+id/reset_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@android:color/transparent"
+                android:paddingBottom="@dimen/dimen_13"
+                android:paddingLeft="@dimen/dimen_20"
+                android:paddingRight="@dimen/dimen_20"
+                android:paddingTop="@dimen/dimen_13"
+                android:text="@string/user_update_tradepwd_reset"
+                android:textColor="@color/color_407FE7"
+                android:textSize="@dimen/text_size_12"/>
+
+            <!--保存-->
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/common_blue_button_rect"
+
+                android:text="@string/user_common_save"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

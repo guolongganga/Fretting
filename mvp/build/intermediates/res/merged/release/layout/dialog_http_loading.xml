@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 当前屏幕网络请求dialog -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_100"
+    android:layout_height="@dimen/dimen_100"
+    android:background="@mipmap/dialog_http_loading_bkg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        style="@style/dialog_http_loading_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDuration="1000" />
+
+    <TextView
+        android:id="@+id/tv_dialog_http_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_16" />
+
+</LinearLayout><!-- From: file:/Users/lihaotian/AndroidStudioProjects/CommonDialog/app/src/main/res/layout/dialog_http_loading.xml -->

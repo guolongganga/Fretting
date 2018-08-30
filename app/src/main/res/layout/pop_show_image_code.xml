@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:paddingBottom="20dp"
+
+        android:paddingTop="@dimen/dimen_20">
+
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_common_close" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="发送验证码"
+            android:textColor="@color/color_333333" />
+
+        <LinearLayout
+            android:id="@+id/ll_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_close"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_15">
+
+            <ImageView
+                android:id="@+id/iv_code"
+                android:layout_width="@dimen/dimen_110"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/dimen_25" />
+
+            <TextView
+                android:id="@+id/tv_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:text="刷新" />
+
+        </LinearLayout>
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/et_code"
+            android:layout_width="@dimen/dimen_200"
+            android:layout_height="@dimen/dimen_30"
+            android:layout_below="@id/ll_code"
+            android:layout_marginLeft="@dimen/dimen_25"
+            android:layout_marginRight="@dimen/dimen_25"
+            android:layout_marginTop="@dimen/dimen_15"
+            android:background="@drawable/pop_image_code_shape"
+            android:cursorVisible="true"
+            android:gravity="center_vertical"
+            android:hint="请输入验证码"
+            android:maxLength="4"
+            android:paddingLeft="@dimen/dimen_10"
+            android:textColor="@color/color_666666"
+            android:textSize="@dimen/text_size_14" />
+
+
+        <me.leefeng.viewlibrary.PEditTextView
+            android:id="@+id/et_input"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/ll_code"
+            android:background="#fff"
+            android:padding="5dp"
+            app:is_password="false"
+            app:length="4" />
+    </RelativeLayout>
+
+</FrameLayout>

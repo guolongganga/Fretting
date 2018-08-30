@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--标题-->
+    <include layout="@layout/layout_head"/>
+    <!--找回登录密码2-->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_62.5"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--密码规则-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_8"
+                android:layout_marginLeft="@dimen/dimen_30"
+                android:layout_marginTop="@dimen/dimen_15"
+                android:text="登录密码为8-16位数字、字母、特殊字符等"
+                android:textColor="@color/color_999999"
+                android:textSize="@dimen/text_size_12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:background="@color/color_FFFFFF"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen_15"
+                android:paddingRight="@dimen/dimen_15">
+                <!--重置登录密码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_bold_16"
+                        android:layout_marginRight="@dimen/dimen_15"
+                        android:text="重置登录密码"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:hintEnabled="false"
+                        app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                        app:passwordToggleEnabled="true">
+                        <!--请输入登录密码-->
+                        <EditText
+                            android:id="@+id/password"
+                            style="@style/edit_user_15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:hint="请输入登录密码"
+                            android:inputType="textPassword"
+                            android:maxLength="16"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <View style="@style/divider_half_ba"/>
+                <!--确认登录密码-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_66"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_bold_16"
+                        android:layout_marginRight="@dimen/dimen_15"
+                        android:text="确认登录密码"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        app:hintEnabled="false"
+                        app:passwordToggleDrawable="@drawable/ck_user_eyes_selector"
+                        app:passwordToggleEnabled="true">
+
+                        <!--再次输入登录密码-->
+                        <EditText
+                            android:id="@+id/password_again"
+                            style="@style/edit_user_15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:hint="请确认登录密码"
+                            android:inputType="textPassword"
+                            android:maxLength="16"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--保存-->
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/common_blue_button_rect"
+                android:layout_marginLeft="@dimen/dimen_15"
+                android:layout_marginRight="@dimen/dimen_15"
+                android:layout_marginTop="@dimen/dimen_22"
+                android:text="保存"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

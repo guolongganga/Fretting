@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#50000000"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/upgrade_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/dialog_bac"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@drawable/dialog_bac_top_f6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="更新提醒"
+                android:textSize="18sp" />
+            <ImageView
+
+                android:paddingLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/upgrade_close"
+                android:src="@drawable/icon_close"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="20dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/uodrade_tv_curVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="当前版本：v1.0" />
+
+        <TextView
+            android:id="@+id/uodrade_tv_newVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="最新版本：v2.0" />
+
+        <TextView
+            android:id="@+id/uodrade_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="更新内容：增加提现到微信" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.com.buyforyou.fund.ui.DownloadProgressButton
+                android:id="@+id/upgrade_download"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_margin="20dp"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                app:backgroud_color="@color/colorAccent"
+                app:backgroud_second_color="#fff"
+                app:backgroud_strokeWidth="2dp"
+                app:text_color="@color/colorAccent"
+                app:text_covercolor="#fff" />
+
+            <TextView
+                android:id="@+id/upgrade_tv_install"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/login_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="升级"
+
+                android:textColor="#fff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
